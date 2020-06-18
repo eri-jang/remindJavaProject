@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LeapYear {
 
-	public static void main(String[] args) {
+	public void test() {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		
@@ -22,6 +22,24 @@ public class LeapYear {
 			}
 		} else {
 			System.out.println("범위초과임 다시 입력 ㄱ ㄱ");
+		}
+	}
+	
+	public void test2() {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+		if(num % 4 == 0) {
+			if(num % 400 == 0) {
+				System.out.println("1");
+			} else if(num % 100 == 0) {
+				System.out.println("0");
+			} else {
+				System.out.println("1");
+			}
+		} else {
+			System.out.println("0");
 		}
 	}
 
