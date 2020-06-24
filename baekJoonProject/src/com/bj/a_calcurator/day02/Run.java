@@ -1,4 +1,4 @@
-package com.bj.day02;
+package com.bj.a_calcurator.day02;
 
 public class Run {
 	public static void main(String[] args) {

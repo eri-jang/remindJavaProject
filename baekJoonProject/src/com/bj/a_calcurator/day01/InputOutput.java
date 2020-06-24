@@ -1,4 +1,4 @@
-package com.bj.day01;
+package com.bj.a_calcurator.day01;
 
 public class InputOutput {
 
