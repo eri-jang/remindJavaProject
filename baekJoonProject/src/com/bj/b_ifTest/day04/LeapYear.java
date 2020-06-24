@@ -1,4 +1,4 @@
-package com.bj.day04;
+package com.bj.b_ifTest.day04;
 
 import java.util.Scanner;
 

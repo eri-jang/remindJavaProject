@@ -1,4 +1,4 @@
-package com.bj.day06;
+package com.bj.b_ifTest.day06;
 
 import java.util.Scanner;
 
@@ -12,12 +12,15 @@ public class alram {
 		if(hh >= 0 && hh <= 23) {
 			if(mm >= 0 && mm <= 59) {
 				System.out.println("입력시간 : " + hh + " " + mm);
-				if(mm > 45) {
+				if(mm >= 45) {
 					mm = mm - 45;
 					System.out.println(" 바뀐시간1 : " + hh + " " + mm);
 				} else {
 					hh = hh -1;
 					mm = mm + 60 - 45;
+					if(hh == -1) {
+						hh = 23;
+					}
 					System.out.println("바뀐시간2 : " + hh + " " + mm);
 				}
 				

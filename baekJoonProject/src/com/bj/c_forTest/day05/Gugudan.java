@@ -1,4 +1,4 @@
-package com.bj.day05;
+package com.bj.c_forTest.day05;
 
 import java.util.Scanner;
 
